@@ -6,7 +6,7 @@ This chatbot application integrates [LaMini-LM](https://arxiv.org/abs/2304.14402
 
 Begin by downloading **ALL** necessary files from the [LaMini-LM model page on Hugging Face](https://github.com/jye-lim/fastapi-chatbot/tree/main/backend/model). Ensure these files are placed within the `model` directory located here: [Model Folder](https://github.com/jye-lim/fastapi-chatbot/tree/main/backend/model).
 
-![model_page](https://github.com/jye-lim/fastapi-chatbot/blob/main/model_page.png?raw=true)
+![model_page](https://github.com/jye-lim/fastapi-chatbot/blob/main/assets/model_page.png?raw=true)
 
 ## Running the App
 
