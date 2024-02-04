@@ -1,0 +1,14 @@
+# Python compiled files and other common Python ignores
+*.pyc
+*.pyo
+*.egg-info/
+__pycache__/
+
+# Common development files
+*.log
+*.swp
+*.swo
+.DS_Store
+
+# Additional files
+*.ipynb
