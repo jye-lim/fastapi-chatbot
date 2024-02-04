@@ -12,7 +12,7 @@ from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 
 # Custom
-from backend.app.model import initialise_model, initialise_pipeline
+from app.model import initialise_model, initialise_pipeline
 
 ##################
 # Configurations #

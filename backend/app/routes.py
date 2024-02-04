@@ -11,7 +11,7 @@ from copy import deepcopy
 from fastapi import APIRouter
 
 # Custom
-from backend.app.chat import get_response
+from app.chat import get_response
 
 ##################
 # Configurations #

@@ -11,7 +11,7 @@
 from fastapi import FastAPI
 
 # Custom
-from backend.app.routes import router
+from app.routes import router
 
 ##################
 # Configurations #

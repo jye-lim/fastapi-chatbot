@@ -5,6 +5,7 @@
 ####################
 
 # Generic/Built-in
+import os
 import requests
 
 # Libs
@@ -17,7 +18,8 @@ import streamlit as st
 # Configurations #
 ##################
 
-API_URL = "http://127.0.0.1:8000/chatbot"
+# Fetch the API URL from the environment variable
+API_URL = os.getenv("API_URL")
 
 #############
 # Functions #
