@@ -4,7 +4,7 @@ This chatbot application integrates [LaMini-LM](https://arxiv.org/abs/2304.14402
 
 ## Getting Started
 
-Begin by downloading **ALL** necessary files from the [LaMini-LM model page on Hugging Face](https://github.com/jye-lim/fastapi-chatbot/tree/main/backend/model). Ensure these files are placed within the `model` directory located here: [Model Folder](https://github.com/jye-lim/fastapi-chatbot/tree/main/backend/model).
+Begin by downloading **ALL** necessary files from the [LaMini-LM model page on Hugging Face](https://huggingface.co/MBZUAI/LaMini-Flan-T5-77M/tree/main). Ensure these files are placed within the `model` directory located here: [Model Folder](https://github.com/jye-lim/fastapi-chatbot/tree/main/backend/model).
 
 ![model_page](https://github.com/jye-lim/fastapi-chatbot/blob/main/assets/model_page.png?raw=true)
 
@@ -24,7 +24,8 @@ To get your chatbot application up and running, follow these steps:
     - This command builds the Docker images and starts the containers necessary for the application.
 
 3. **Understanding IP Addresses**:
-    - When Streamlit runs within the Docker container, it may print an IP address to the console. **Important:** This address is internal to the Docker container and is not the correct address to access the application externally.
+    - When Streamlit runs within the Docker container, it may print an IP address to the console.
+    - **Important:** This address is internal to the Docker container and is not the correct address to access the application externally.
     - To access the application, you need to find your machine's network IP address.
 
 4. **Obtaining the Network IP Address**:
