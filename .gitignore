@@ -10,5 +10,9 @@ __pycache__/
 *.swo
 .DS_Store
 
+# Model folder except README
+model/*
+!model/README.md
+
 # Additional files
 *.ipynb
